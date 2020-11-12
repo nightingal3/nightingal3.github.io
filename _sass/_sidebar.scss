@@ -9,6 +9,9 @@
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @include clearfix();
   margin-bottom: 1em;
@@ -72,13 +75,13 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  //width: 36px;
   // set width only, for non-square avatars
   // height: 36px;
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
+    width: 150px;
     height: auto;
   }
 
@@ -172,6 +175,12 @@
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
+  &.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   @include breakpoint($large) {
     display: block;
     position: relative;
@@ -235,3 +244,7 @@
     }
   }
 }
+
+/* Small breakpoint modification */
+
+
