@@ -19,8 +19,8 @@ main:
     url: /files/cv.pdf
     newtab: true
   
-  - title: "Misc"
-    url: /misc/
+  #- title: "Misc"
+    #url: /misc/
     
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+    #url: /markdown/

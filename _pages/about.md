@@ -18,6 +18,9 @@ In my free time (This will hopefully not be a vacuous statement soon...) I like 
 
 Contact
 ===
+
+This site is under construction, so please contact me if there are any dead links or other issues!  
+
 Email (school): `me.liu@utoronto.ca`  
 Email (non-school): `emmy.liu.1998@gmail.com`
 

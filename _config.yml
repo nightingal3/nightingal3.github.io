@@ -231,7 +231,25 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
+      comments: true
+  # conferences
+  - scope:
+      path: ""
+      type: conferences
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+ # posters
+  - scope:
+      path: ""
+      type: posters
+    values:
+      layout: single
+      author_profile: true
+      share: false
       comments: true
   # _portfolio
   - scope:

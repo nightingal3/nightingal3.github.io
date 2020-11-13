@@ -1,8 +1,8 @@
 ---
 title: "Chaining and the process of scientific innovation"
-collection: publications
+collection: conferences
 permalink: /publication/2020-metascience
-excerpt: 'We find that these numeral systems all reflect a functional need for efficient communication, mirroring existing arguments in other semantic domains such as color, kinship, and space. Our findings suggest that cross-language variation in numeral systems may be understood in terms of a shared functional need to communicate precisely while using minimal cognitive resources.'
+excerpt: 'Our basic premise is that scientific papers should emerge in non-arbitrary ways that tend to follow a process of chaining, whereby novel papers are linked to existing papers with closely related ideas. We evaluate this proposal with a set of probabilistic models on the historical publications from 70 Turing Award winners. We show that an exemplar model of chaining best explains the data among the alternative models, mirroring recent findings on chaining in the growth of linguistic meaning.'
 date: 2020-07-29
 venue: 'Proceedings of the 42nd Annual Conference of the Cognitive Science Society'
 paperurl: '/files/cogsci_2020.pdf'
