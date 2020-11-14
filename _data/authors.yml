@@ -1,18 +1,8 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Emmy Liu:
+  name        : "Emmy Liu"
+  uri         : "https://nightingal3.github.io"
+  email       : "emmy.liu.1998@gmail.com"
+  bio         : "Hello! My name is Emmy, and I’m a current 4th year student at the University of Toronto, with a specialist in Computer Science and a major in Cognitive Science. I do research in computational cognitive science, mostly using the tools of computational linguistics/NLP."
+  avatar      : "profile.jpg"
