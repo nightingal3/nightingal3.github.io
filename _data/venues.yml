@@ -4,3 +4,30 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"ICLR":
+  color: "#3D5A6C"
+
+"NAACL":
+  color: "#B8336A"
+
+"EMNLP":
+  color: "#93032E"
+
+"CogSci":
+  color: "#F2BB05"
+
+"CHI":
+  color: "#e08b00"
+
+"PLoS One":
+  color: "#696969"
+
+"Open Mind":
+  color: "#5c5b55"
+
+"GeBNLP@NAACL":
+    color: "#b06383"
+
+"FigLang@EMNLP": 
+    color: "#8c5062"
