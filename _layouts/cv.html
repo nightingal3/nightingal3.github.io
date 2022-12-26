@@ -2,4 +2,6 @@
 layout: default
 ---
 <!-- _layouts/cv.html -->
-<embed src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width="800px" height="2100px" />
+<h1 class="post-title">{% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+<br>
+Last updated: Nov 15 2022
