@@ -4,4 +4,4 @@ date: 2023-05-01
 inline: true
 ---
 
-2 papers accepted to ACL! Details to come...
+1 paper accepted to ACL, 1 to ACL findings! See you in Toronto!

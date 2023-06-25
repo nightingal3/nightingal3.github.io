@@ -1,15 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
 "ICLR":
   color: "#3D5A6C"
 
 "NAACL":
   color: "#B8336A"
+
+"ACL": 
+  color: "#CC0210"
 
 "EMNLP":
   color: "#93032E"
