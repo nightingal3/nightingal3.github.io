@@ -7,6 +7,9 @@
 "ACL": 
   color: "#CC0210"
 
+"ACL Findings": 
+  color: "#CC0210"
+
 "EMNLP":
   color: "#93032E"
 
