@@ -1,6 +1,9 @@
 "ICLR":
   color: "#3D5A6C"
 
+"TACL":
+  color: "#540601"
+  
 "NAACL":
   color: "#B8336A"
 
