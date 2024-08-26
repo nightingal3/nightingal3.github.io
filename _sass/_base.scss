@@ -252,9 +252,11 @@ blockquote {
 
 .social {
   text-align: center;
+  padding-top: 2rem;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.2rem;
     a {
+      margin: 10px 10px 0 10px; 
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
