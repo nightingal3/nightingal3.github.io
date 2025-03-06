@@ -13,6 +13,9 @@
 "NAACL":
   color: "#B8336A"
 
+"NAACL Findings":
+  color: "#B8336A"
+  
 "ACL": 
   color: "#CC0210"
 
