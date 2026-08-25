@@ -8,12 +8,12 @@ middle_name:
 last_name: Liu
 email: emmy@cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Emmy Liu is a language-model researcher at Carnegie Mellon University studying how models acquire, represent, and retain capabilities during training, with work on reasoning, hallucination, and model development.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords:
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🏵  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -59,9 +59,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/profile.jpeg # The site-wide Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -76,16 +76,16 @@ telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-1287-5712 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://lti.cs.cmu.edu/people/students/liu-emmy.html # institutional profile
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
+dblp_url: https://dblp.org/pid/249/6997.html # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
@@ -105,7 +105,7 @@ google_analytics: G-8NGQXM1NW7 # your Goole Analytics measurement ID (format: G-
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # your google-site-verification ID (Google Search Console)
 
-google_site_verification: google-site-verification=WQIEEIHF1yplML-6bEIgPJCnYBjAXXFIFCIW4-SJYJQ
+google_site_verification: WQIEEIHF1yplML-6bEIgPJCnYBjAXXFIFCIW4-SJYJQ
 
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
@@ -120,7 +120,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
@@ -145,9 +145,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -189,6 +187,9 @@ exclude:
   - bin
   - Gemfile
   - Gemfile.lock
+  - _posts
+  - _pages/blog.md
+  - blog
   - vendor
 keep_files:
   - CNAME
@@ -287,7 +288,7 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 # These are the defaults
 external_links:
   enabled: true
-  rel: external nofollow noopener
+  rel: external noopener
   target: _blank
   exclude:
 

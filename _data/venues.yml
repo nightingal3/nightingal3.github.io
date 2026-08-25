@@ -4,6 +4,12 @@
 "ICLR":
   color: "#3D5A6C"
 
+"ICML":
+  color: "#5c6bc0"
+
+"ICML Position":
+  color: "#5c6bc0"
+
 "TACL":
   color: "#540601"
   
@@ -20,6 +26,9 @@
   color: "#CC0210"
 
 "ACL Findings": 
+  color: "#CC0210"
+
+"EvalEval@ACL":
   color: "#CC0210"
 
 "EMNLP":

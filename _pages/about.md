@@ -7,6 +7,7 @@ subtitle:
 profile:
   align: right
   image: profile.jpeg
+  alt: Portrait of Emmy Liu
   image_circular: true # crops the image to make it circular
   address:
 

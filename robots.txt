@@ -1,6 +1,26 @@
 ---
 permalink: /robots.txt
 ---
+# Search and user-requested retrieval agents are explicitly welcome.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Model-training crawlers are also welcome.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
 User-agent: *
 Disallow:
 
