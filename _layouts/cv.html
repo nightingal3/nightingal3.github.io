@@ -2,6 +2,7 @@
 layout: default
 ---
 <!-- _layouts/cv.html -->
-<h1 class="post-title">{% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-<br>
-Last updated: Nov 15 2022
+<h1 class="post-title">{{ page.title }}</h1>
+{% if page.cv_pdf %}
+<p><a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)</a></p>
+{% endif %}
