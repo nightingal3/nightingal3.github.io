@@ -144,14 +144,14 @@
             <button type="button" class="bibtex btn btn-sm z-depth-0">BibTeX</button>
           {%- endif %}
           {%- if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">{{ entry.html_label | default: 'HTML' | escape }}</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">{{ entry.pdf_label | default: 'PDF' | escape }}</a>
             {%- else -%}
             {% assign local_pdf = entry.pdf | remove_first: '/' %}
-            <a href="{{ local_pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ local_pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ entry.pdf_label | default: 'PDF' | escape }}</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
