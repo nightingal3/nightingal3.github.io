@@ -1,6 +1,3 @@
----
-permalink: /robots.txt
----
 # Search and user-requested retrieval agents are explicitly welcome.
 User-agent: OAI-SearchBot
 Allow: /
@@ -24,4 +21,4 @@ Allow: /
 User-agent: *
 Disallow:
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+Sitemap: https://nightingal3.github.io/sitemap.xml
