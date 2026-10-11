@@ -13,6 +13,7 @@ nav_order: 1
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[website_section=main,year={{y}}] %}
   {% bibliography -f papers -q @*[website_section=workshop,year={{y}}] %}
+  {% bibliography -f papers -q @*[website_section=benchmark,year={{y}}] %}
   {% bibliography -f papers -q @*[website_section=preprint,year={{y}}] %}
   {% bibliography -f papers -q @*[website_section=other,year={{y}}] %}
 {% endfor %}

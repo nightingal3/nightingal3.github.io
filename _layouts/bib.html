@@ -108,7 +108,9 @@
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
-        {% if entry.type == "article" -%}
+        {% if entry.display_venue -%}
+          {%- capture entrytype -%}<em>{{entry.display_venue | escape}}</em>{%- endcapture -%}
+        {%- elsif entry.type == "article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
           {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
@@ -131,6 +133,21 @@
         <div class="periodical">
           {{ entry.note | strip }}
         </div>
+
+          {% if entry.award or entry.presentation %}
+          <div class="recognitions">
+            {% if entry.award %}
+              {% if entry.award_url %}<a class="recognition recognition-award" href="{{ entry.award_url | escape }}">{% else %}<span class="recognition recognition-award">{% endif %}
+                <span aria-hidden="true">🏆</span> {{ entry.award | escape }}
+              {% if entry.award_url %}</a>{% else %}</span>{% endif %}
+            {% endif %}
+            {% if entry.presentation %}
+              {% if entry.presentation_url %}<a class="recognition" href="{{ entry.presentation_url | escape }}">{% else %}<span class="recognition">{% endif %}
+                <span aria-hidden="true">{% if entry.presentation == 'Spotlight' %}🔦{% else %}🌟{% endif %}</span> {{ entry.presentation | escape }}
+              {% if entry.presentation_url %}</a>{% else %}</span>{% endif %}
+            {% endif %}
+          </div>
+          {% endif %}
 
           <!-- Links/Buttons -->
           <div class="links">

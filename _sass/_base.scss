@@ -527,6 +527,25 @@ footer.sticky-bottom {
       .title {
         font-weight: bolder;
       }
+      .recognitions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem 1rem;
+        margin: 0.35rem 0;
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+      .recognition {
+        color: var(--global-theme-color);
+        font-weight: 600;
+      }
+      .recognition-award {
+        color: var(--recognition-award-color, #896312);
+      }
+      a.recognition:hover,
+      a.recognition:focus-visible {
+        text-decoration: underline;
+      }
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -719,3 +738,7 @@ progress {
      display: block;
      height: inherit;
  }
+
+html[data-theme='dark'] {
+  --recognition-award-color: #e3bd64;
+}
