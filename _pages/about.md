@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: profile.jpeg
+  image: headshot_2026.png
   width: 300
   height: 300
   alt: Portrait of Emmy Liu
